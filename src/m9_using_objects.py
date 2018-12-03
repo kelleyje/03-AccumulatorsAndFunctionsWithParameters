@@ -108,9 +108,9 @@ def circle_and_rectangle():
 
     print(mono.outline_thickness)
     print(mono.fill_color)
-    print(mono.corner_1)
-    print(mono.corner_1.x)
-    print(mono.corner_1.y)
+    print(mono.get_center())
+    print(mono.get_center().x)
+    print(mono.get_center().y)
 
     window.render()
     window.close_on_mouse_click()
